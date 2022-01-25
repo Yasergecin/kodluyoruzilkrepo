@@ -17,6 +17,7 @@ public class Dik_Ucgen {
 		int u = (kenar1 + kenar2 + kenar3) / 2;
 		double alan = Math.sqrt(u * (u - kenar1) * (u - kenar2) * (u - kenar3));
 		System.out.println("Üçgenin alaný= " + alan);
+		scn.close();
 
 	}
 

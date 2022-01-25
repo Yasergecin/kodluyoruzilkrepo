@@ -14,6 +14,7 @@ public class Vucut_Kitle {
 		boy=in.nextDouble();
 		index= kilo/(boy*boy);
 		System.out.println("Vücut Kitle Ýndeksiniz : "+index);
+		in.close();
 		
 
 	}

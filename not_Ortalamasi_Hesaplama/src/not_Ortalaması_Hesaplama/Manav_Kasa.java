@@ -23,6 +23,7 @@ public class Manav_Kasa {
 	kilo=in.nextDouble();
 	toplam+=ptlcn*kilo;
 	System.out.println("toplam tutar= "+toplam);
+	in.close();
 	
 
 	}

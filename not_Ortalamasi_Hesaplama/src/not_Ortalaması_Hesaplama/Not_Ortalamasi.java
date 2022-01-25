@@ -31,6 +31,7 @@ public class Not_Ortalamasi {
 		String sonuc = ortalama >= 60 ? "Sýnýfý geçti" : "Sýnýfta Kaldý";
 		System.out.println("Ortalamnýz: " + ortalama);
 		System.out.println(sonuc);
+		in.close();
 
 	}
 

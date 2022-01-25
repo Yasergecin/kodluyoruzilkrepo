@@ -14,6 +14,7 @@ public class daire_Alan {
 		
 		alan = (pi*(r*r)*a)/360;
 		System.out.println("daire yayýnýn alaný= "+alan);
+		scan.close();
 
 	}
 
