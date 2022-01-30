@@ -15,7 +15,6 @@ public class even_Numbers {
 			if(i%3==0 || i%4==0) {
 				sum += i;
 				counter++;
-				System.out.println("i sayısı= "+i);
 			}
 			
 		}
