@@ -56,8 +56,9 @@ public class Chinese_Zodiac {
 		}
 		else {
 			System.out.println("hatalý bir tarih girdiniz");
-			System.out.println("lütfen yýlýn baþýna eksi iþareti koymadan giriniz");
+			System.out.println("lütfen baþýna eksi iþareti koymadan giriniz");
 		}
+		inp.close();
 
 	}
 
