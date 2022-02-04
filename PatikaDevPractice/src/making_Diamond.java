@@ -24,7 +24,7 @@ public class making_Diamond {
 			}
 			System.out.println(" ");
 		}
-		
+		input.close();
 
 	}
 
