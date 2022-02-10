@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class prime_with_Recursive {
 	
 	static boolean prime(int a ,int i) {
-		int counter=2;
 		if(a<=2) {
 			return (a==2)? true:false;
 		}
@@ -23,6 +22,7 @@ public class prime_with_Recursive {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Bir sayý giriniz");
 		int a = scan.nextInt();
+		scan.close();
 		boolean b=prime(a,2);
 		String c= b ? "asal sayýdýr":"asal sayý deðildir";
 		System.out.println(a+" sayýsý bir "+c);
