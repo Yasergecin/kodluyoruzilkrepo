@@ -2,7 +2,8 @@
 public class bWordPrinter {
 
 	public static void main(String[] args) {
-		String[][] word= new String[7][4];
+		String[][] word= new String[7][4];//daha iyi görüntü vermesi için 7 satır yapıldı
+		                                  //for to give better image its made 7 rows
 		
 		for(int i=0; i<word.length; i++) {
 			for(int j=0; j<word[i].length; j++) {
